@@ -7,31 +7,31 @@ public class EnemyController : MonoBehaviour
     #region Editor Variables
     [SerializeField]
     [Tooltip("Enemy health")]
-    private int m_MaxHealth;
+    protected int m_MaxHealth;
 
     [SerializeField]
     [Tooltip("Enemy speed")]
-    private float m_Speed;
+    protected float m_Speed;
 
     [SerializeField]
     [Tooltip("How much damage enemy can do per frame")]
-    private float m_Damage;
+    protected float m_Damage;
 
     [SerializeField]
     [Tooltip("The explosion that happens when enemy dies")]
-    private ParticleSystem m_DeathExplosion;
+    protected ParticleSystem m_DeathExplosion;
 
     [SerializeField]
     [Tooltip("The probability that an enemy drops a pill")]
-    private float m_HealthPillDropRate;
+    protected float m_HealthPillDropRate;
 
     [SerializeField]
     [Tooltip("The type of pill that enemy drops")]
-    private GameObject m_HealthPill;
+    protected GameObject m_HealthPill;
 
     [SerializeField]
     [Tooltip("How many points player gets for killing enemy")]
-    private int m_Score;
+    protected int m_Score;
     #endregion
 
     #region Private Variables

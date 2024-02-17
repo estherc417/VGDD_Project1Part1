@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class EnemySpawnInfo 
+public class EnemySpawnInfo
 {
     #region Editor Variables
     [SerializeField]

@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     #endregion
 
     #region CachedComponents
-    private Rigidbody cc_Rb; 
+    public Rigidbody cc_Rb; 
     #endregion
 
     #region Private Variables
